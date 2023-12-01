@@ -1,7 +1,14 @@
 body
  {
-	background-image: url('../image/1056724.jpg');
+ 	background-image: url('../image/1056724.jpg');
 	background-size: cover;
 
 
+}
+#hover-effect{
+	transition: color 0.3s ease;
+	cursor: pointer;
+}
+.hovered{
+	color:red;
 }
